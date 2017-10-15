@@ -1,0 +1,50 @@
+.App {
+  width: 70%;
+  margin: auto;
+}
+
+.chatWindow {
+  width: 98%;
+  height: 60vh;
+  background-color: #fff;
+  padding: 1%;
+  overflow: scroll;
+}
+
+.chatWindow .send, .chatWindow .response {
+  margin: 1em 0;
+}
+
+.chatWindow .send {
+  float: right;
+}
+
+.chatWindow .response {
+  float: left;
+}
+
+.chatWindow .send span, .chatWindow .response span {
+  padding: 0.2em 0.8em;
+  border-radius: 2vw;
+}
+
+.chatWindow .send span {
+  background-color: rgba(4, 152, 247, 0.25);
+}
+
+.chatWindow .response span {
+  background-color: rgba(4, 247, 65, 0.25);
+}
+
+textarea {
+  width: 96%;
+  padding: 1% 2%;
+  font-size: 1em;
+  line-height: 1.5em;
+  resize: none;
+  color: #0500ff;
+}
+
+.sending {
+  text-align: right;
+}
